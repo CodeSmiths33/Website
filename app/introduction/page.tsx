@@ -1,10 +1,7 @@
 import Link from "@/components/ui/Link";
 import Section from "@/components/Section";
 import ConnectLinks from "@/components/ConnectLinks";
-import Gallery from "@/components/Gallery";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Carousel } from "@/components/ui/carousel";
 import { CarouselDemo } from "@/components/Carousel";
 
 export default function About() {
