@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "@/components/ui/Link";
 import ConnectLinks from "@/components/ConnectLinks";
 import avatar2 from "@/public/avatars/nishant-avatar.jpg";

@@ -10,9 +10,9 @@ export default function About() {
       <main className="container mx-auto px-4 py-8 text-white">
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div>
-            <h1 className="text-3xl font-bold mb-4">Women's safety in India</h1>
+            <h1 className="text-3xl font-bold mb-4">Women&apos;s safety in India</h1>
             <p className="mb-4">
-              Women's safety in India is a growing concern, and we propose a
+              Women&apos;s safety in India is a growing concern, and we propose a
               robust AI-powered surveillance and mobile application system to
               address this issue through constant monitoring, timely alerts, and
               real-time response.
