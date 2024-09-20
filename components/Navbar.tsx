@@ -48,7 +48,7 @@ export default function Navbar() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </Button>
-            <ul className={`lg:hidden flex flex-col bg-gray-700 text-white space-y-4 p-10 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
+            <ul className={`lg:hidden fixed top-0 left-0 z-50 w-full h-full bg-gray-900 bg-opacity-90 text-white flex flex-col items-center justify-center space-y-8 p-4 transition-all duration-300 ${isOpen ? 'block' : 'hidden'}`}>
         <li><Link href="/" className="text-white px-3 py-2 rounded-md text-sm font-medium">
                 Introduction
               </Link></li>
