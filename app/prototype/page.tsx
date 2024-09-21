@@ -23,35 +23,27 @@ export default function CraftPage() {
           >
             A detailed demonstration on the product.
           </p>
-          <div className="flex flex-col gap-6">
-            <div className="flex flex-col gap-4">
-              <h1 className="animate-in text-3xl font-bold tracking-tight">
+          <div className="flex flex-col gap-10 mt-12">
+            <div className="flex flex-col">
+              <h1 className="animate-in text-2xl font-bold tracking-tight">
                 Our gender classification model
               </h1>
               <div
-                className="relative w-full overflow-hidden mt-10"
+                className="relative w-full overflow-hidden mt-4"
               >
-                <iframe
-                  className="absolute left-0 top-0 h-full w-full"
-                  src="https://www.youtube.com/embed/31LngYcwMmk?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com"
-                  allowFullScreen
-                  id="240632615"
-                />
+               <iframe className="w-full h-full" allowFullScreen src="https://www.youtube.com/embed/31LngYcwMmk">
+               </iframe>
               </div>
             </div>
-            <div className="flex flex-col gap-4">
-              <h1 className="animate-in text-3xl font-bold tracking-tight">
+            <div className="flex flex-col">
+              <h1 className="animate-in text-2xl font-bold tracking-tight">
                 Our hand SOS sign recognition model
               </h1>
               <div
-                className="relative w-full overflow-hidden mt-10"
+                className="relative w-full overflow-hidden mt-4"
               >
-                <iframe
-                  className="absolute left-0 top-0 h-full w-full"
-                  src="https://www.youtube.com/embed/hK4zDQcZbAg?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com"
-                  allowFullScreen
-                  id="240632615"
-                />
+                <iframe className="w-full h-full" allowFullScreen src="https://www.youtube.com/embed/hK4zDQcZbAg">
+                </iframe>
               </div>
             </div>
           </div>

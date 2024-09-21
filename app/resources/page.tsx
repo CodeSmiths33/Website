@@ -17,7 +17,7 @@ export default function Resources() {
         <h1 className="text-3xl font-bold tracking-tight">
           Research & References
         </h1>
-        <p className="text-secondary">
+        <p className="text-gray-950">
           Let&apos;s have a look on our research and resources.
         </p>
       </div>
