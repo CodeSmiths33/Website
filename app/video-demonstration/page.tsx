@@ -17,7 +17,7 @@ export default function Video() {
           Video demonstration
         </h1>
         <p
-          className="animate-in text-secondary"
+          className="animate-in"
           style={{ "--index": 1 } as React.CSSProperties}
         >
           Dive into the in-depth presentation and discussion on the idea.

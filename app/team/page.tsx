@@ -6,6 +6,7 @@ import avatar3 from "@/public/avatars/dipak-avatar.jpg";
 import avatar4 from "@/public/avatars/ishita-avatar.jpg";
 import avatar5 from "@/public/avatars/karmanya-avatar.jpg";
 import avatar from "@/public/avatars/bishal-avatar.png";
+import avatar7 from "@/public/avatars/alokbhaiya-avatar.jpg" 
 import Avatar from "@/components/Avatar";
 
 export default function Links() {
@@ -26,7 +27,7 @@ export default function Links() {
             style={{ "--index": 2 } as React.CSSProperties}
           >
             <h1 className="text-3xl font-bold tracking-tight">Our Team</h1>
-            <p className="mx-auto max-w-sm text-secondary">
+            <p className="mx-auto max-w-sm">
               We are students of Siliguri Institute of Technology trying to make
               impact on the world with the use of our technical prowess. We
               specialize in, AI/ML technology, web development, databases,
@@ -39,14 +40,14 @@ export default function Links() {
         <div className="flex animate-in flex-col justify-center items-center gap-8">
           <div>
             <Avatar src={avatar4} alt="avatar" />
-            <Avatar src={avatar2} alt="avatar" />
+            <Avatar src={avatar7} alt="avatar" />
           </div>
           <div
             className="animate-in space-y-1 text-center"
             style={{ "--index": 2 } as React.CSSProperties}
           >
             <h1 className="text-3xl font-bold tracking-tight">Our Mentors</h1>
-            <p className="mx-auto max-w-sm text-secondary">
+            <p className="mx-auto max-w-sm">
               With professional mentors excelling in the field of technology
               guiding us only sky is our limit.
             </p>
@@ -61,9 +62,9 @@ export default function Links() {
             <li className="col-span-1 transition-opacity" key={link.label}>
               <Link
                 href={link.href}
-                className="inline-grid w-full rounded-lg bg-tertiary p-4 no-underline transition-opacity"
+                className="inline-grid w-full rounded-lg bg-gray-200 p-4 no-underline transition-opacity"
               >
-                <div className="flex items-center gap-3 text-white bg-zinc-500 p-3 rounded-lg">
+                <div className="flex items-center gap-3 p-3 rounded-lg">
                   <span className="text-xl">{link.icon}</span>
                   {link.label}
                   <svg

@@ -50,7 +50,7 @@ export default function Resources() {
               href="https://economictimes.indiatimes.com/topic/women-safety"
               target="_blank"
             >
-              <strong className="text-white">News & Facts:</strong> <span className="text-blue-500 underline">Women Safety</span>
+              <strong>News & Facts:</strong> <span className="text-blue-500 underline">Women Safety</span>
             </a>
           </li>
           <li>
@@ -58,7 +58,7 @@ export default function Resources() {
               href="https://www.kaggle.com/datasets/zalando-research/fashionmnist"
               target="_blank"
             >
-              <strong className="text-white">Dataset:</strong> <span className="text-blue-500 underline">Fashion MNIST</span>
+              <strong>Dataset:</strong> <span className="text-blue-500 underline">Fashion MNIST</span>
             </a>
           </li>
           <li>
@@ -66,7 +66,7 @@ export default function Resources() {
               href="https://github.com/ultralytics/ultralytics"
               target="_blank"
             >
-              <strong className="text-white">Model:</strong> <span className="text-blue-500 underline">Ultralytics Repository</span>
+              <strong>Model:</strong> <span className="text-blue-500 underline">Ultralytics Repository</span>
             </a>
           </li>
         </ul>

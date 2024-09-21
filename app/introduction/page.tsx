@@ -7,40 +7,41 @@ import { CarouselDemo } from "@/components/Carousel";
 export default function About() {
   return (
     <div className="flex flex-col gap-12 md:gap-16">
-      <main className="container mx-auto px-4 py-8 text-white">
+      <main className="container mx-auto px-4 py-8">
+        <h1 className="text-3xl font-bold mb-4">
+          Women&apos;s safety in India
+        </h1>
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div>
-            <h1 className="text-3xl font-bold mb-4">Women&apos;s safety in India</h1>
             <p className="mb-4">
-              Women&apos;s safety in India is a growing concern, and we propose a
-              robust AI-powered surveillance and mobile application system to
+              Women&apos;s safety in India is a growing concern, and we propose
+              a robust AI-powered surveillance and mobile application system to
               address this issue through constant monitoring, timely alerts, and
               real-time response.
             </p>
           </div>
           <div className="space-y-4 h-[40vh]">
-            <h2 className="text-xl font-semibold">Progress</h2>
             <div className="relative">
-              <Image
-                src="/detection.png"
-                alt="detection"
-                width={600}
-                height={600}
-                className="w-full rounded-md"
-              />
               <Image
                 src="/accuracy.png"
                 alt="detection"
                 width={400}
                 height={400}
-                className="absolute -bottom-40 -right-5 bg-gray-200 rounded-md"
+                className="w-full rounded-md"
+              />
+              <Image
+                src="/detection.png"
+                alt="detection"
+                width={600}
+                height={600}
+                className="absolute -bottom-24 -right-12 bg-gray-200 rounded-md"
               />
             </div>
           </div>
         </div>
 
         <div className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 text-black p-1 bg-blue-500 w-[28%] rounded-md">What we are offering</h2>
+          <h1 className="text-3xl font-bold mb-4">What we offer</h1>
           <div className="space-y-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
