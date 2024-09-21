@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ReactNode } from "react";
 import clsx from "clsx";
-import { usePathname } from "next/navigation";
 
 type NavLinkProps = {
   href: string;
@@ -9,9 +8,6 @@ type NavLinkProps = {
 };
 
 export default function NavLink({ href, children }: NavLinkProps) {
-  const pathname = `/${usePathname().split("/")[1]}`;
-  const active = pathname === href;
-
   return (
     <Link
       className={clsx(
