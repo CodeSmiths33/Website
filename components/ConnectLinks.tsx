@@ -28,12 +28,12 @@ import {
     },
      {
        label: "YouTube",
-       href: "https://www.youtube.com/watch?v=fMeaiTkCg2E",
+       href: "https://www.youtube.com/@CodeSmiths-2024",
        icon: <FaYoutube />,
      },
     {
       label: "GitHub",
-      href: "https://github.com/Nishant891/AI-Website",
+      href: "https://github.com/CodeSmiths33",
       icon: <FaGithub />,
     },
     {

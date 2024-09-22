@@ -7,6 +7,7 @@ import avatar4 from "@/public/avatars/ishita-avatar.jpg";
 import avatar5 from "@/public/avatars/karmanya-avatar.jpg";
 import avatar from "@/public/avatars/bishal-avatar.png";
 import avatar7 from "@/public/avatars/alokbhaiya-avatar.jpg" 
+import avatar8 from "@/public/avatars/abhilashadi-avatar.jpg" 
 import Avatar from "@/components/Avatar";
 
 export default function Links() {
@@ -39,7 +40,7 @@ export default function Links() {
 
         <div className="flex animate-in flex-col justify-center items-center gap-8">
           <div>
-            <Avatar src={avatar4} alt="avatar" />
+            <Avatar src={avatar8} alt="avatar" />
             <Avatar src={avatar7} alt="avatar" />
           </div>
           <div

@@ -5,7 +5,7 @@ export default function Avatar({
   src,
   alt,
   initials,
-  size = "lg",
+  size = "md",
 }: {
   src?: string | StaticImageData;
   alt?: string;
@@ -19,7 +19,7 @@ export default function Avatar({
       className={clsx(
         "relative inline-flex select-none items-center justify-center overflow-hidden rounded-full align-middle font-medium uppercase text-primary",
         size === "sm" && "h-10 w-10 bg-tertiary text-sm",
-        size === "md" && "h-14 w-14 bg-tertiary text-base",
+        size === "md" && "h-32 w-32 bg-tertiary text-base",
         size === "lg" && "h-36 w-36 bg-secondary text-2xl",
       )}
     >
