@@ -27,11 +27,11 @@ export default function CraftPage() {
             <div className="flex flex-col">
               <div className="bg-gray-100 p-6 rounded-lg shadow-lg max-w-2xl mx-auto mt-4 md:mt-10">
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                  Smart India Hackathon 2024: Gender Classifier for Women's
+                  Smart India Hackathon 2024: Gender Classifier for Women&apos;s
                   Safety
                 </h2>
                 <p className="text-gray-700 mb-4">
-                  Our gender classifier model enhances women's safety. Designed
+                  Our gender classifier model enhances women&apos;s safety. Designed
                   for surveillance integration, it detects gender in real-time
                   to help reduce threats.
                 </p>
@@ -66,7 +66,7 @@ export default function CraftPage() {
                 </h2>
                 <p className="text-gray-700 mb-4">
                   In this video, we showcase our SOS hand sign recognition
-                  system for SIH 2024, designed to enhance women's safety. Using
+                  system for SIH 2024, designed to enhance women&apos;s safety. Using
                   real-time gesture detection, it recognizes emergency signals
                   like the SOS sign, aiding in alerting authorities or nearby
                   individuals.

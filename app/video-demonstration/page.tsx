@@ -17,7 +17,7 @@ export default function Video() {
           Video demonstration
         </h1>
         <p className="text-gray-700 mb-4 mt-4">
-    Team CodeSmiths presents our innovative women's safety solution. This project combines AI surveillance, a mobile app, and wearable devices to provide real-time protection and assistance.
+    Team CodeSmiths presents our innovative women&apos;s safety solution. This project combines AI surveillance, a mobile app, and wearable devices to provide real-time protection and assistance.
   </p>
   <p className="text-gray-700 mb-4">
     With AI analytics, location tracking, and SOS features, we aim to create safer environments and enable quick action during emergencies.
